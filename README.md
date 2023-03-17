@@ -6,7 +6,10 @@
 * The parameters of each of the pipeline building blocks can be easily adjusted;
 * The designed pipeline can be applied to a set of datasets that is imported by the user, therefore the same pipeline has been applied to all datasets in an automatic way.
 
+## EEGLAB-based Toolbox
 ![Slide1](/ppt/GUI.gif)
+
+## EEG Signal Cleaning Pipeline Management
 ![Slide1](/ppt/Slide1.PNG)
 ![Slide2](/ppt/Slide2.PNG)
 ![Slide3](/ppt/Slide3.PNG)
