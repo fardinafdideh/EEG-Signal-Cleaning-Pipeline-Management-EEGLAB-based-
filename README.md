@@ -22,4 +22,4 @@
 ![Slide10](/ppt/Slide10.PNG)
 
 # How to cite
-* F. Afdideh, “EEG Signal Cleaning Pipeline Management: EEGLAB-based,” unpublished (listed on the [EEGLAB website](https://eeglab.org/tutorials/11_Scripting/automated_pipeline.html#other-eeglab-pipelines)).
+* F. Afdideh, “EEG Signal Cleaning Pipeline Management: EEGLAB-based,” *in preparation* (listed on the [EEGLAB website](https://eeglab.org/tutorials/11_Scripting/automated_pipeline.html#other-eeglab-pipelines)).
