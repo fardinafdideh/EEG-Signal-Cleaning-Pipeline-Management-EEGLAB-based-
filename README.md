@@ -1,12 +1,51 @@
-# EEG Signal Cleaning Pipeline Management: EEGLAB-based
-* Convenient GUI-based EEG pre-processing pipeline management system;
-* EEGLAB processing elements can be selected as the pipeline building blocks;
-* To build a pipeline, the pipeline building blocks can be easily added, removed or moved between the pipeline elements;
-* A standard or previously-constructed pipeline can be loaded at once;
-* The parameters of each of the pipeline building blocks can be easily adjusted;
-* The designed pipeline can be applied to a set of datasets that is imported by the user, therefore the same pipeline has been applied to all datasets in an automatic way.
+# EEGChain: An Open-Access EEGLAB-based Toolbox for Building, Managing, Automating, and Reproducing Batch EEG Processing Pipelines
+* A convenient GUI-based EEG (pre-)processing pipeline management system;
+* Loading pre-stored pipeline configurations to ensure consistent signal processing and reproducibility;
+* Interactive GUI for selection, rearrangement, and customization of processing blocks from the EEGLAB toolbox;
+* Offering both interactive and automated pipeline execution modes, providing flexibility in processing control;
+* Easy creation of pipelines by adding, removing, or rearranging pipeline building blocks;
+* Adjusting the parameters of each pipeline building block through the easy-to-use GUI of EEGChain;
+* The same pipeline can be applied to multiple imported EEG datasets in batch, in an automated way.
 
-## EEGLAB-based Toolbox
+##  EEGChain Layout
+![](/ppt/EEGChain-parts.png)
+
+###  A) Processing Blocks
+
+###  B) (Re)-Arranging the Processing Blocks
+![](/ppt/creation.gif)
+
+###  C) Loading Pre-stored Pipeline Configurations
+![](/ppt/configImport.gif)
+
+###  D) Processing Pipeline
+
+###  E) Processing Blocks Parameters
+![](/ppt/parameterSetting.gif)
+
+###  F) Naming and Storing the Created Pipeline Configuration
+![](/ppt/config.gif)
+
+###  G) Interactive v.s. Automated Pipeline Execution Mode
+![](/ppt/interactive.gif)
+
+###  H) Raw Data Path
+
+###  I) Dataset Loading
+![](/ppt/dataImportManual.gif)
+![](/ppt/dataImportMat.gif)
+
+###  J) Dataset Removing
+![](/ppt/dataRemove.gif)
+
+###  K) Pipeline Execution
+![](/ppt/startRunning.gif)
+![](/ppt/batchProc.gif)
+
+###  L) Accessing the Results Directory
+![](/ppt/open.gif)
+
+## EEGChain
 ![Slide1](/ppt/GUI.gif)
 
 ## EEG Signal Cleaning Pipeline Management
@@ -22,4 +61,5 @@
 ![Slide10](/ppt/Slide10.PNG)
 
 # How to cite
-* F. Afdideh, “EEG Signal Cleaning Pipeline Management: EEGLAB-based,” *in preparation* (listed on the [EEGLAB website](https://eeglab.org/tutorials/11_Scripting/automated_pipeline.html#other-eeglab-pipelines)).
+* F. Afdideh, M. Boozari, A. Ekhlasi, A. M. Nasrabadi, “EEGChain: An Open-Access EEGLAB-based Toolbox for Building, Managing, Automating, and Reproducing Batch EEG Processing Pipelines,” 31st National and 9th International Iranian Conference on Biomedical Engineering (ICBME), submitted, 2024.
+* F. Afdideh, et al., “EEG Signal Cleaning Pipeline Management: EEGLAB-based,” *in preparation* (listed on the [EEGLAB website](https://eeglab.org/tutorials/11_Scripting/automated_pipeline.html#other-eeglab-pipelines)).
